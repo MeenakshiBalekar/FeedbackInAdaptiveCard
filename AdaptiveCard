@@ -1,0 +1,126 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+   "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "color": "Accent",
+            "text": "Rate your experience!"
+        },
+        {
+            "type": "TextBlock",
+            "separator": true,
+            "text": "We would like to hear your experience! Your feedback is valuable to us, this will help improve our project",
+            "wrap": true
+        },
+        {
+            "type": "ColumnSet",
+            "spacing": "Medium",
+            "columns": [
+                {
+                    "type": "Column",
+                    "selectAction": {
+                        "type": "Action.Submit",
+                        "data": "unhapy"
+                    },
+                    "items": [
+                        {
+                            "type": "Image",
+                            "horizontalAlignment": "Center",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/StarRating.svg"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "text": "Unhappy"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "selectAction": {
+                        "type": "Action.Submit",
+                        "data": "bad"
+                    },
+                    "items": [
+                        {
+                            "type": "Image",
+                            "horizontalAlignment": "Center",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/StarRating.svg"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "text": "Bad"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "selectAction": {
+                        "type": "Action.Submit",
+                        "data": "fine"
+                    },
+                    "items": [
+                        {
+                            "type": "Image",
+                            "horizontalAlignment": "Center",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/StarRating.svg"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "text": "Fine"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "selectAction": {
+                        "type": "Action.Submit",
+                        "data": "good"
+                    },
+                    "items": [
+                        {
+                            "type": "Image",
+                            "horizontalAlignment": "Center",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/StarRating.svg"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "text": "Good"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "selectAction": {
+                        "type": "Action.Submit",
+                        "data": "excellent"
+                    },
+                    "items": [
+                        {
+                            "type": "Image",
+                            "horizontalAlignment": "Center",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/StarRating.svg"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "text": "Excellent"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        }
+    ]
+}
